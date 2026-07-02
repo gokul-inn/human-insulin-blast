@@ -1,0 +1,1650 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6412701</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>2805</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6412701</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>2805</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gb|QMS45322.1|</Hit_id>
+  <Hit_def>insulin isoform U2 [Homo sapiens]</Hit_def>
+  <Hit_accession>QMS45322</Hit_accession>
+  <Hit_len>198</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>394.43</Hsp_bit-score>
+      <Hsp_score>1012</Hsp_score>
+      <Hsp_evalue>1.54775e-121</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1845</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>198</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>198</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEPTAHCCPWPPPATPCSWRSHPAWAEGGRRLPPSRGSGALF</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEPTAHCCPWPPPATPCSWRSHPAWAEGGRRLPPSRGSGALF</Hsp_hseq>
+      <Hsp_midline>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQGEPTAHCCPWPPPATPCSWRSHPAWAEGGRRLPPSRGSGALF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|QMS45321.1|</Hit_id>
+  <Hit_def>insulin isoform U1 [Homo sapiens]</Hit_def>
+  <Hit_accession>QMS45321</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.079</Hsp_bit-score>
+      <Hsp_score>806</Hsp_score>
+      <Hsp_evalue>1.12926e-93</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>ref|XP_016775240.2|</Hit_id>
+  <Hit_def>insulin isoform X1 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_016775240</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>307.76</Hsp_bit-score>
+      <Hsp_score>787</Hsp_score>
+      <Hsp_evalue>4.04911e-91</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRVPGWLDPRPQLCSREDVAGLLKHVGVSPGAPRQGTWPSAGLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPASAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLR+PGWLDPRPQLCSREDVAGL+KHVGVSPGAPRQGTWPSA LSPACLPDHCPSAMALWMRLLPLLALLALWGPDPA+AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>ref|XP_034787832.1|</Hit_id>
+  <Hit_def>insulin [Pan paniscus]</Hit_def>
+  <Hit_accession>XP_034787832</Hit_accession>
+  <Hit_len>204</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>1.21994e-90</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPAGTQQPSALQDRLHQKRPSSRSVPRAFASGGLRVPGWLDPRPQLCSREDVAGLLKHVGVSPGAPRQGTWPSAGLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPASAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MGSETIKPAG QQPSALQDRLHQKRPSSRSVPRAFASGGLR+PGWLDPRPQLCSREDVAGL+KHVGVSPGAPRQGTWPSA LSPACLPDHCPSAMALWMRLLPLLALLALWGPDPA+AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>ref|XP_008002752.1|</Hit_id>
+  <Hit_def>insulin isoform X1 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_008002752</Hit_accession>
+  <Hit_len>209</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>2.13971e-56</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQD---RLHQKRPSSRSVPRAFASG--GLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPVGAQQPSTLRDGCIRRGQQAGLFQGPSRQVGSGLPHLGVPGWLDPRPQLCNREDMAGLLKRLRVNPGAPGQGTWPSAGLRPACLPGHCPSAMALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQ</Hsp_hseq>
+      <Hsp_midline>MGSETIKP GAQQPS L+D   R  Q+    +   R   SG   L +PGWLDPRPQLC+RED+AGL+K + V+PGAP QGTWPSA L PACLP HCPSAMALWMRLLPLLALLALWGPDP  AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|QMS45324.1|</Hit_id>
+  <Hit_def>insulin isoform UB [Homo sapiens]</Hit_def>
+  <Hit_accession>QMS45324</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>8.05191e-52</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFAS---------------------------------------------------DHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFAS                                                   DHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>ref|XP_004050475.2|</Hit_id>
+  <Hit_def>insulin isoform X1 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004050475</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>6.27497e-51</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>105</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPVGTQQPSALQDRLHQKRPSSRSVPRAFAS---------------------------------------------------DHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MGSETIKP G QQPSALQDRLHQKRPSSRSVPRAFAS                                                   DHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>ref|XP_055150526.1|</Hit_id>
+  <Hit_def>insulin isoform X2 [Symphalangus syndactylus]</Hit_def>
+  <Hit_accession>XP_055150526</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>4.80838e-49</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASG---------------------------------------------------HCPSAMALWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASG                                                   HCPSAMALWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>ref|XP_032009712.2|</Hit_id>
+  <Hit_def>insulin isoform X2 [Hylobates moloch]</Hit_def>
+  <Hit_accession>XP_032009712</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.644</Hsp_bit-score>
+      <Hsp_score>457</Hsp_score>
+      <Hsp_evalue>1.52627e-47</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPAGPQQPSALQDRLHQKRPSSRSVPRAFASG---------------------------------------------------HCPSAMTLWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>MGSETIKPAG QQPSALQDRLHQKRPSSRSVPRAFASG                                                   HCPSAM LWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>ref|XP_011719619.2|</Hit_id>
+  <Hit_def>insulin isoform X1 [Macaca nemestrina] &gt;ref|XP_050613945.1| insulin isoform X1 [Macaca thibetana thibetana]</Hit_def>
+  <Hit_accession>XP_011719619</Hit_accession>
+  <Hit_len>153</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>4.83254e-47</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>51</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>MGSETIKPVGAQQPSTLRDRLHQKRPASRSVPRAFASG---------------------------------------------------HCPSAMALWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>MGSETIKP GAQQPS L+DRLHQKRP+SRSVPRAFASG                                                   HCPSAMALWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>ref|XP_065383852.1|</Hit_id>
+  <Hit_def>insulin [Macaca fascicularis]</Hit_def>
+  <Hit_accession>XP_065383852</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.147</Hsp_bit-score>
+      <Hsp_score>396</Hsp_score>
+      <Hsp_evalue>1.98556e-39</Hsp_evalue>
+      <Hsp_query-from>1705</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MAGLLKRLGVSPGAPGQGTWPSAGLRPACLPGHCPSAMALWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQ</Hsp_hseq>
+      <Hsp_midline>+AGL+K +GVSPGAP QGTWPSA L PACLP HCPSAMALWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>ref|XP_017803627.2|</Hit_id>
+  <Hit_def>insulin isoform X1 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_017803627</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>5.59842e-39</Hsp_evalue>
+      <Hsp_query-from>1705</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MAGLLKRLGVSPGAPGQGTWPSAGLRPACLPGHCPSAMALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQ</Hsp_hseq>
+      <Hsp_midline>+AGL+K +GVSPGAP QGTWPSA L PACLP HCPSAMALWMRLLPLLALLALWGPDP  AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>ref|XP_025211012.1|</Hit_id>
+  <Hit_def>insulin isoform X3 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025211012</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>7.87041e-39</Hsp_evalue>
+      <Hsp_query-from>1705</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>VAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MAGLLKRLGVSPGAPGQGTWPSAGLRPACLPGHCPSAMALWMRLLPLLALLALWGPDSVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQG</Hsp_hseq>
+      <Hsp_midline>+AGL+K +GVSPGAP QGTWPSA L PACLP HCPSAMALWMRLLPLLALLALWGPD   AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED QG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>ref|XP_017743290.1|</Hit_id>
+  <Hit_def>insulin isoform X2 [Rhinopithecus bieti]</Hit_def>
+  <Hit_accession>XP_017743290</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>1.43276e-38</Hsp_evalue>
+      <Hsp_query-from>1705</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MAGLLKRLGVNPGTPGQGTWPSASLRPACLPGHCPSAMALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQ</Hsp_hseq>
+      <Hsp_midline>+AGL+K +GV+PG P QGTWPSA L PACLP HCPSAMALWMRLLPLLALLALWGPDP  AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>ref|XP_023039287.1|</Hit_id>
+  <Hit_def>insulin isoform X2 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023039287</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>1.62506e-38</Hsp_evalue>
+      <Hsp_query-from>1705</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MAGLLKRLGVSPGTPGQGTWPSAGLRPACLPGHCPSAMALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQ</Hsp_hseq>
+      <Hsp_midline>+AGL+K +GVSPG P QGTWPSA L PACLP HCPSAMALWMRLLPLLALLALWGPDP  AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>ref|XP_025211011.1|</Hit_id>
+  <Hit_def>insulin isoform X2 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025211011</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>3.29613e-38</Hsp_evalue>
+      <Hsp_query-from>1705</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MAGLLKRLGVSPGAPGQGTWPSAGLRPACLPGHCPSAMALWMRLLPLLALLALWGPDSVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQ</Hsp_hseq>
+      <Hsp_midline>+AGL+K +GVSPGAP QGTWPSA L PACLP HCPSAMALWMRLLPLLALLALWGPD   AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>ref|XP_025211009.1|</Hit_id>
+  <Hit_def>insulin isoform X1 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025211009</Hit_accession>
+  <Hit_len>234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>2.40682e-37</Hsp_evalue>
+      <Hsp_query-from>1705</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>VAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MAGLLKRLGVSPGAPGQGTWPSAGLRPACLPGHCPSAMALWMRLLPLLALLALWGPDSVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQ</Hsp_hseq>
+      <Hsp_midline>+AGL+K +GVSPGAP QGTWPSA L PACLP HCPSAMALWMRLLPLLALLALWGPD   AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>ref|XP_064226392.1|</Hit_id>
+  <Hit_def>insulin isoform X1 [Aotus nancymaae]</Hit_def>
+  <Hit_accession>XP_064226392</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>136.732</Hsp_bit-score>
+      <Hsp_score>343</Hsp_score>
+      <Hsp_evalue>4.18795e-32</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGSGPIKPAGTQQPSALRDQLHHRRPASRSVPRAFE------PAWAQGR-----------------------------------------CPSTMALWMHLLPLLALLALWGPEPAPAFVNQHLCGPHLVEALYLVCGERGFFYAPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MGS  IKPAG QQPSAL+D+LH +RP+SRSVPRAF       P W   R                                         CPS MALWM LLPLLALLALWGP+PA AFVNQHLCG HLVEALYLVCGERGFFY PKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|ABI63346.1|</Hit_id>
+  <Hit_def>insulin [Homo sapiens] &gt;gb|KAI2558108.1| insulin [Homo sapiens] &gt;gb|KAI4069451.1| insulin [Homo sapiens] &gt;gb|QMS45326.1| insulin isoform U3B [Homo sapiens]</Hit_def>
+  <Hit_accession>ABI63346</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>134.035</Hsp_bit-score>
+      <Hsp_score>336</Hsp_score>
+      <Hsp_evalue>5.08774e-32</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|PNJ16423.1|</Hit_id>
+  <Hit_def>INS isoform 5 [Pongo abelii]</Hit_def>
+  <Hit_accession>PNJ16423</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.92373e-31</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|KAL0628984.1|</Hit_id>
+  <Hit_def>Insulin [Plecturocebus cupreus]</Hit_def>
+  <Hit_accession>KAL0628984</Hit_accession>
+  <Hit_len>184</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>2.23403e-31</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGT-WPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGSGPIKPAGTQQPSALRDQPNHRKPASRSVPRAFE------PAWAQGCP-------TRGFQSSWTPGPSSAAGGHGWALKHLG------HCPSAMALWMHLLPLLALLALWGPEPAPAFVNQHLCGPHLVEALYLVCGERGFFYAPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MGS  IKPAG QQPSAL+D+ + ++P+SRSVPRAF       P W    P         G        P +   G  W    L       HCPSAMALWM LLPLLALLALWGP+PA AFVNQHLCG HLVEALYLVCGERGFFY PKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|KAI4069450.1|</Hit_id>
+  <Hit_def>insulin, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI4069450</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>4.05555e-31</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQA</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>59.6918</Hsp_bit-score>
+      <Hsp_score>143</Hsp_score>
+      <Hsp_evalue>5.20137e-06</Hsp_evalue>
+      <Hsp_query-from>2106</Hsp_query-from>
+      <Hsp_query-to>2137</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>LPAGELLQLDAARRQPHTRRLLHRERWNKALE</Hsp_qseq>
+      <Hsp_hseq>LQAGELLQLDAARRQPPTRRLLHRERWNKALE</Hsp_hseq>
+      <Hsp_midline>L AGELLQLDAARRQP TRRLLHRERWNKALE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|WAH70529.1|</Hit_id>
+  <Hit_def>INS, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>WAH70529</Hit_accession>
+  <Hit_len>94</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>4.07036e-31</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQA</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>68.5514</Hsp_bit-score>
+      <Hsp_score>166</Hsp_score>
+      <Hsp_evalue>5.23029e-09</Hsp_evalue>
+      <Hsp_query-from>2106</Hsp_query-from>
+      <Hsp_query-to>2139</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>LPAGELLQLDAARRQPHTRRLLHRERWNKALEPA</Hsp_qseq>
+      <Hsp_hseq>LQAGELLQLDAARRQPHTRRLLHRERWNKALEPA</Hsp_hseq>
+      <Hsp_midline>L AGELLQLDAARRQPHTRRLLHRERWNKALEPA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|AKI70567.1|</Hit_id>
+  <Hit_def>INS, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI70567</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>4.55158e-31</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>ref|NP_000198.1|</Hit_id>
+  <Hit_def>insulin preproprotein [Homo sapiens] &gt;ref|NP_001172026.1| insulin preproprotein [Homo sapiens] &gt;ref|NP_001172027.1| insulin preproprotein [Homo sapiens] &gt;ref|NP_001278826.1| insulin preproprotein [Homo sapiens] &gt;ref|XP_063566949.1| insulin isoform X2 [Gorilla gorilla gorilla] &gt;ref|XP_063566950.1| insulin isoform X2 [Gorilla gorilla gorilla] &gt;sp|P01308.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Homo sapiens] &gt;sp|Q6YK33.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Gorilla gorilla gorilla] &gt;pdb|6B3Q|a Chain a, Insulin [Homo sapiens] &gt;pdb|6B3Q|b Chain b, Insulin [Homo sapiens] &gt;pdb|6B70|a Chain a, Insulin [Homo sapiens] &gt;pdb|6B70|c Chain c, Insulin [Homo sapiens] &gt;pdb|6BFC|a Chain a, Insulin [Homo sapiens] &gt;pdb|6BFC|b Chain b, Insulin [Homo sapiens] &gt;pdb|6JK8|C Chain C, Insulin [Homo sapiens] &gt;pdb|6JK8|D Chain D, Insulin [Homo sapiens] &gt;pdb|6TC2|A Chain A, Insulin [Homo sapiens] &gt;pdb|6TC2|B Chain B, Insulin [Homo sapiens] &gt;pdb|6TC2|C Chain C, Insulin [Homo sapiens] &gt;pdb|6TC2|D Chain D, Insulin [Homo sapiens] &gt;pdb|6TC2|E Chain E, Insulin [Homo sapiens] &gt;pdb|6TC2|F Chain F, Insulin [Homo sapiens] &gt;pdb|6TC2|G Chain G, Insulin [Homo sapiens] &gt;pdb|6TC2|H Chain H, Insulin [Homo sapiens] &gt;pdb|6TC2|I Chain I, Insulin [Homo sapiens] &gt;pdb|6TC2|J Chain J, Insulin [Homo sapiens] &gt;pdb|6TC2|K Chain K, Insulin [Homo sapiens] &gt;pdb|6TC2|L Chain L, Insulin [Homo sapiens] &gt;pdb|7STH|C Chain C, Insulin [Homo sapiens] &gt;pdb|7STH|D Chain D, Insulin [Homo sapiens] &gt;pdb|7STI|C Chain C, Insulin [Homo sapiens] &gt;pdb|7STJ|C Chain C, Insulin [Homo sapiens] &gt;pdb|7STJ|D Chain D, Insulin [Homo sapiens] &gt;pdb|7STK|C Chain C, Insulin [Homo sapiens] &gt;pdb|7STK|D Chain D, Insulin [Homo sapiens] &gt;pdb|8EYX|D Chain D, Insulin [Homo sapiens] &gt;pdb|8EYX|E Chain E, Insulin [Homo sapiens] &gt;pdb|8EYX|F Chain F, Insulin [Homo sapiens] &gt;pdb|8EYX|G Chain G, Insulin [Homo sapiens] &gt;pdb|8EYY|C Chain C, Insulin [Homo sapiens] &gt;pdb|8EYY|D Chain D, Insulin [Homo sapiens] &gt;pdb|8EYY|E Chain E, Insulin [Homo sapiens] &gt;pdb|8EYY|F Chain F, Insulin [Homo sapiens] &gt;pdb|8EZ0|D Chain D, Insulin [Homo sapiens] &gt;pdb|8EZ0|E Chain E, Insulin [Homo sapiens] &gt;pdb|8EZ0|F Chain F, Insulin [Homo sapiens] &gt;pdb|8EZ0|G Chain G, Insulin [Homo sapiens] &gt;pdb|8YYS|C Chain C, Insulin [Homo sapiens] &gt;pdb|8YYS|D Chain D, Insulin [Homo sapiens] &gt;pdb|9DNN|C Chain C, Insulin [Homo sapiens] &gt;pdb|9DNN|D Chain D, Insulin [Homo sapiens] &gt;gb|AAN06935.1| insulin precursor [Gorilla gorilla] &gt;gb|AAX42025.1| insulin [synthetic construct] &gt;emb|SJX25028.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAA59172.1| insulin [Homo sapiens] &gt;gb|AAA59173.1| insulin [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_000198</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>4.55158e-31</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|AKI70566.1|</Hit_id>
+  <Hit_def>INS, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI70566</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>4.73175e-31</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|AAP36446.1|</Hit_id>
+  <Hit_def>Homo sapiens insulin, partial [synthetic construct] &gt;gb|AAX29480.1| insulin, partial [synthetic construct] &gt;gb|AAX29481.1| insulin, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AAP36446</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.109</Hsp_bit-score>
+      <Hsp_score>331</Hsp_score>
+      <Hsp_evalue>4.83569e-31</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|KAI2558107.1|</Hit_id>
+  <Hit_def>insulin, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>KAI2558107</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.339</Hsp_bit-score>
+      <Hsp_score>329</Hsp_score>
+      <Hsp_evalue>4.87725e-31</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQA</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.77976e-06</Hsp_evalue>
+      <Hsp_query-from>2106</Hsp_query-from>
+      <Hsp_query-to>2137</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>LPAGELLQLDAARRQPHTRRLLHRERWNKALE</Hsp_qseq>
+      <Hsp_hseq>LQAGELLQLDAACRQPHTRRLLHRERWNKALE</Hsp_hseq>
+      <Hsp_midline>L AGELLQLDAA RQPHTRRLLHRERWNKALE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>ref|XP_010329449.2|</Hit_id>
+  <Hit_def>insulin [Saimiri boliviensis]</Hit_def>
+  <Hit_accession>XP_010329449</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>132.494</Hsp_bit-score>
+      <Hsp_score>332</Hsp_score>
+      <Hsp_evalue>1.34095e-30</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGSGPIKPARTQQPSALRDQLHHRRPASRSVPRAFE------PAWA---------------------------QG--------------HCPSTMALWMHLLPLLALLALWGPEPAPAFVNQHLCGPHLVEALYLVCGERGFFYAPKTRREAEDPQ</Hsp_hseq>
+      <Hsp_midline>MGS  IKPA  QQPSAL+D+LH +RP+SRSVPRAF       P W                            QG              HCPS MALWM LLPLLALLALWGP+PA AFVNQHLCG HLVEALYLVCGERGFFY PKTRREAED Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>ref|XP_024110665.1|</Hit_id>
+  <Hit_def>insulin isoform X2 [Pongo abelii] &gt;ref|XP_054295337.1| insulin [Pongo pygmaeus] &gt;ref|XP_054380089.1| insulin isoform X2 [Pongo abelii] &gt;sp|Q8HXV2.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Pongo pygmaeus] &gt;gb|AAN06937.1| insulin precursor [Pongo pygmaeus] &gt;gb|PNJ16419.1| INS isoform 1 [Pongo abelii] &gt;gb|PNJ16420.1| INS isoform 2 [Pongo abelii] &gt;gb|PNJ16421.1| INS isoform 3 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_024110665</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>130.183</Hsp_bit-score>
+      <Hsp_score>326</Hsp_score>
+      <Hsp_evalue>1.84116e-30</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|PNJ16422.1|</Hit_id>
+  <Hit_def>INS isoform 4, partial [Pongo abelii]</Hit_def>
+  <Hit_accession>PNJ16422</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>1.97452e-30</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQA</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>0.00278044</Hsp_evalue>
+      <Hsp_query-from>2106</Hsp_query-from>
+      <Hsp_query-to>2137</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>32</Hsp_align-len>
+      <Hsp_qseq>LPAGELLQLDAARRQPHTRRLLHRERWNKALE</Hsp_qseq>
+      <Hsp_hseq>LQAGELLQLDVAGRRPRTLRLLHRERWNKALE</Hsp_hseq>
+      <Hsp_midline>L AGELLQLD A R+P T RLLHRERWNKALE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>ref|NP_001008996.1|</Hit_id>
+  <Hit_def>insulin preproprotein [Pan troglodytes] &gt;sp|P30410.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Pan troglodytes] &gt;gb|AAN06933.1| insulin precursor [Pan troglodytes] &gt;emb|CAA43403.1| Preproinsulin [Pan troglodytes]</Hit_def>
+  <Hit_accession>NP_001008996</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.798</Hsp_bit-score>
+      <Hsp_score>325</Hsp_score>
+      <Hsp_evalue>2.74096e-30</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLVLLALWGPDPASAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLL LLALWGPDPA+AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|AKI70564.1|</Hit_id>
+  <Hit_def>INS, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI70564</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>129.413</Hsp_bit-score>
+      <Hsp_score>324</Hsp_score>
+      <Hsp_evalue>3.20141e-30</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGLFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERG FYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|AKI70565.1|</Hit_id>
+  <Hit_def>INS, partial [synthetic construct]</Hit_def>
+  <Hit_accession>AKI70565</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>128.642</Hsp_bit-score>
+      <Hsp_score>322</Hsp_score>
+      <Hsp_evalue>6.89168e-30</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTCREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKT REAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>ref|XP_030667342.1|</Hit_id>
+  <Hit_def>insulin isoform X3 [Nomascus leucogenys]</Hit_def>
+  <Hit_accession>XP_030667342</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>126.716</Hsp_bit-score>
+      <Hsp_score>317</Hsp_score>
+      <Hsp_evalue>2.39785e-29</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQG</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED QG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>emb|CAA08766.1|</Hit_id>
+  <Hit_def>insulin, partial [Homo sapiens]</Hit_def>
+  <Hit_accession>CAA08766</Hit_accession>
+  <Hit_len>59</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>6.1519e-29</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1800</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>59</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAE</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAE</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>ref|XP_011785466.1|</Hit_id>
+  <Hit_def>PREDICTED: insulin isoform X3 [Colobus angolensis palliatus] &gt;ref|XP_011843618.1| PREDICTED: insulin isoform X2 [Mandrillus leucophaeus] &gt;ref|XP_017743300.1| insulin isoform X3 [Rhinopithecus bieti] &gt;ref|XP_023039288.1| insulin isoform X3 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_011785466</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.561</Hsp_bit-score>
+      <Hsp_score>314</Hsp_score>
+      <Hsp_evalue>6.2101e-29</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQG</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDP  AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED QG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>ref|XP_003281399.1|</Hit_id>
+  <Hit_def>insulin isoform X2 [Nomascus leucogenys] &gt;ref|XP_011719618.1| insulin isoform X2 [Macaca nemestrina] &gt;ref|XP_011719620.1| insulin isoform X2 [Macaca nemestrina] &gt;ref|XP_012352077.1| insulin isoform X2 [Nomascus leucogenys] &gt;ref|XP_028688882.1| insulin [Macaca mulatta] &gt;ref|XP_030667341.1| insulin isoform X2 [Nomascus leucogenys] &gt;ref|XP_050613946.1| insulin isoform X2 [Macaca thibetana thibetana] &gt;ref|XP_050613947.1| insulin isoform X2 [Macaca thibetana thibetana] &gt;ref|XP_055150527.1| insulin isoform X3 [Symphalangus syndactylus] &gt;ref|XP_055150529.1| insulin isoform X3 [Symphalangus syndactylus] &gt;sp|P30406.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Macaca fascicularis] &gt;gb|AAA36849.1| preproinsulin [Macaca fascicularis]</Hit_def>
+  <Hit_accession>XP_003281399</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>125.176</Hsp_bit-score>
+      <Hsp_score>313</Hsp_score>
+      <Hsp_evalue>1.13898e-28</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>ref|XP_011896559.1|</Hit_id>
+  <Hit_def>PREDICTED: insulin [Cercocebus atys] &gt;ref|XP_011896561.1| PREDICTED: insulin [Cercocebus atys] &gt;ref|XP_011896562.1| PREDICTED: insulin [Cercocebus atys]</Hit_def>
+  <Hit_accession>XP_011896559</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>2.75498e-28</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDP  AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>ref|XP_023039285.1|</Hit_id>
+  <Hit_def>insulin isoform X1 [Piliocolobus tephrosceles] &gt;ref|XP_023039286.1| insulin isoform X1 [Piliocolobus tephrosceles]</Hit_def>
+  <Hit_accession>XP_023039285</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>124.02</Hsp_bit-score>
+      <Hsp_score>310</Hsp_score>
+      <Hsp_evalue>3.18677e-28</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDP  AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>ref|XP_003909425.2|</Hit_id>
+  <Hit_def>insulin isoform X2 [Papio anubis] &gt;ref|XP_009183614.2| insulin isoform X2 [Papio anubis] &gt;ref|XP_010380355.2| insulin [Rhinopithecus roxellana] &gt;ref|XP_011785464.1| PREDICTED: insulin isoform X2 [Colobus angolensis palliatus] &gt;ref|XP_011785465.1| PREDICTED: insulin isoform X2 [Colobus angolensis palliatus] &gt;ref|XP_011843615.1| PREDICTED: insulin isoform X1 [Mandrillus leucophaeus] &gt;ref|XP_011843616.1| PREDICTED: insulin isoform X1 [Mandrillus leucophaeus] &gt;ref|XP_011843617.1| PREDICTED: insulin isoform X1 [Mandrillus leucophaeus] &gt;ref|XP_017743276.1| insulin isoform X1 [Rhinopithecus bieti] &gt;ref|XP_017743284.1| insulin isoform X1 [Rhinopithecus bieti] &gt;ref|XP_017743293.1| insulin isoform X1 [Rhinopithecus bieti] &gt;ref|XP_033062711.1| insulin [Trachypithecus francoisi] &gt;sp|P30407.1| RecName: Full=Insulin; Contains: RecName: Full=Insulin B chain; Contains: RecName: Full=Insulin A chain; Flags: Precursor [Chlorocebus aethiops] &gt;gb|KAL4672029.1| hypothetical protein H8957_009813 [Semnopithecus entellus] &gt;gb|KAL4829973.1| hypothetical protein H8958_012456 [Nasalis larvatus] &gt;emb|CAA43405.1| Preproinsulin [Chlorocebus aethiops]</Hit_def>
+  <Hit_accession>XP_003909425</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>3.28093e-28</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDP  AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>ref|XP_025211016.1|</Hit_id>
+  <Hit_def>insulin isoform X5 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025211016</Hit_accession>
+  <Hit_len>98</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.25</Hsp_bit-score>
+      <Hsp_score>308</Hsp_score>
+      <Hsp_evalue>3.29972e-28</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1804</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQG</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDSVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDPQG</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPD   AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED QG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>ref|XP_032009711.1|</Hit_id>
+  <Hit_def>insulin isoform X3 [Hylobates moloch] &gt;ref|XP_032009713.1| insulin isoform X3 [Hylobates moloch]</Hit_def>
+  <Hit_accession>XP_032009711</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>123.635</Hsp_bit-score>
+      <Hsp_score>309</Hsp_score>
+      <Hsp_evalue>3.58044e-28</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>MTLWMRLLPLLALLALWGPDPAPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>M LWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>ref|XP_025211013.1|</Hit_id>
+  <Hit_def>insulin isoform X4 [Theropithecus gelada] &gt;ref|XP_025211014.1| insulin isoform X4 [Theropithecus gelada] &gt;ref|XP_025211015.1| insulin isoform X4 [Theropithecus gelada]</Hit_def>
+  <Hit_accession>XP_025211013</Hit_accession>
+  <Hit_len>110</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.709</Hsp_bit-score>
+      <Hsp_score>304</Hsp_score>
+      <Hsp_evalue>1.56569e-27</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>60</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>60</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDSVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPD   AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|KAL5272679.1|</Hit_id>
+  <Hit_def>hypothetical protein ACHWQZ_G000760 [Mnemiopsis leidyi]</Hit_def>
+  <Hit_accession>KAL5272679</Hit_accession>
+  <Hit_len>567</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>1.28167e-26</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1541</Hsp_query-to>
+      <Hsp_hit-from>389</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>DWGQGS--WGQGCGDRGP--GDRGLGTGVL--GTGVWGQGCGDRGVGTGVL--GTGVWGQGSEDRGVGTGVWGQGCGDRGVGTGVWGQGSG--GQGCGDRGVGTGVWGQGSGDRGVGTGVL--GTGVWG*GCGDRGVGTGVWGQGSGD</Hsp_qseq>
+      <Hsp_hseq>DRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGD</Hsp_hseq>
+      <Hsp_midline>D GQG+   GQG GDRG   GDRG GTG    GTG  GQG GDRG GTG    GTG  GQG+ DRG GTG  GQG GDRG GTG  GQG+G  GQG GDRG GTG  GQG+GDRG GTG    GTG  G G GDRG GTG  GQG+GD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>130.568</Hsp_bit-score>
+      <Hsp_score>327</Hsp_score>
+      <Hsp_evalue>2.70798e-26</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1556</Hsp_query-to>
+      <Hsp_hit-from>396</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>DWGQGS--WGQGCGDRGPG--DRGLGTGVLG--TGVWGQGCGDRGVGTGVLG--TGVWGQGSEDRGVGTGVWGQGCGDRGVGTGVWGQGSG--GQGCGDRGVGTGVWGQGSGDRGVGTGVL--GTGVWG*GCGDRGVGTGV--WGQGSGDSSAKSPALQPPALLV</Hsp_qseq>
+      <Hsp_hseq>DRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGQGTGDTHCFMPLLQTQILFL</Hsp_hseq>
+      <Hsp_midline>D GQG+   GQG GDRG G  DRG GTG  G  TG  GQG GDRG GTG  G  TG  GQG+ DRG GTG  GQG GDRG GTG  GQG+G  GQG GDRG GTG  GQG+GDRG GTG    GTG  G G GDRG GTG    GQG+GD+    P LQ   L +</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>2.96634e-23</Hsp_evalue>
+      <Hsp_query-from>1407</Hsp_query-from>
+      <Hsp_query-to>1541</Hsp_query-to>
+      <Hsp_hit-from>378</Hsp_hit-from>
+      <Hsp_hit-to>508</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>WGQGSWGQGCGDRGPGDRGLGTGVLGTGVWGQGCGDRGVGTGVL--GTGVWGQGSEDRGVGTGVWGQGCGDRGVGTGVWGQGSG--GQGCGDRGVGTGVWGQGSGDRGVGTGVL--GTGVWG*GCGDRGVGTGVWGQGSGD</Hsp_qseq>
+      <Hsp_hseq>QGTGDSGQGTGDRGQG----------TGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGD</Hsp_hseq>
+      <Hsp_midline> G G  GQG GDRG G          TG  GQG GDRG GTG    GTG  GQG+ DRG GTG  GQG GDRG GTG  GQG+G  GQG GDRG GTG  GQG+GDRG GTG    GTG  G G GDRG GTG  GQG+GD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>110.923</Hsp_bit-score>
+      <Hsp_score>276</Hsp_score>
+      <Hsp_evalue>6.44794e-20</Hsp_evalue>
+      <Hsp_query-from>1430</Hsp_query-from>
+      <Hsp_query-to>1541</Hsp_query-to>
+      <Hsp_hit-from>377</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>VLGTGVWGQGCGDRGVGTGVLGTGVWGQGSEDRGVGTGVWGQGCGDRGVGTGVWGQGSG--GQGCGDRGVGTGVWGQGSGDRGVGTGVL--GTGVWG*GCGDRGVGTGVWGQGSGD</Hsp_qseq>
+      <Hsp_hseq>VQGTGDSGQGTGDRG-----QGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGD</Hsp_hseq>
+      <Hsp_midline>V GTG  GQG GDRG      GTG  GQG+ DRG GTG  GQG GDRG GTG  GQG+G  GQG GDRG GTG  GQG+GDRG GTG    GTG  G G GDRG GTG  GQG+GD</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>80.4925</Hsp_bit-score>
+      <Hsp_score>197</Hsp_score>
+      <Hsp_evalue>2.58136e-10</Hsp_evalue>
+      <Hsp_query-from>1461</Hsp_query-from>
+      <Hsp_query-to>1549</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>80</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>91</Hsp_align-len>
+      <Hsp_qseq>DRGVGTGVWGQGCGDRGVGTGVWGQGSG--GQGCGDRGVGTGVWGQGSGDRGVGTGVLGTGVWG*GCGDRGVGTGVWGQGSGDSSAKSPAL</Hsp_qseq>
+      <Hsp_hseq>DRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGT------------GDRGQGTGDRGQGTGDRSYRKQET</Hsp_hseq>
+      <Hsp_midline>DRG GTG  GQG GDRG GTG  GQG+G  GQG GDRG GTG  GQG+GDRG GT            GDRG GTG  GQG+GD S +    </Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>4.51454e-09</Hsp_evalue>
+      <Hsp_query-from>1437</Hsp_query-from>
+      <Hsp_query-to>1509</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>GQGCGDRGVGTGVLGTGVWGQGSEDRGVGTGVWGQGCGDRGVGTGVWGQGSG--GQGCGDRGVGTGVWGQGSGDR</Hsp_qseq>
+      <Hsp_hseq>GQGTGDRG-----QGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDR</Hsp_hseq>
+      <Hsp_midline>GQG GDRG      GTG  GQG+ DRG GTG  GQG GDRG GTG  GQG+G  GQG GDRG GTG  GQG+GDR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>7</Hsp_num>
+      <Hsp_bit-score>67.0106</Hsp_bit-score>
+      <Hsp_score>162</Hsp_score>
+      <Hsp_evalue>4.02871e-06</Hsp_evalue>
+      <Hsp_query-from>1411</Hsp_query-from>
+      <Hsp_query-to>1495</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>73</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>SWGQGCGDRGPG--DRGLGTGVLGTGVWGQGCGDRGVGTGVLGTGVWGQGSEDRGVGTGVWGQGCGDRGVGTGVWGQGSG--GQGCGDR</Hsp_qseq>
+      <Hsp_hseq>DRGQGTGDRGQGTGDRGQGTGD-----RGQGTGDRGQGTG------------DRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDR</Hsp_hseq>
+      <Hsp_midline>  GQG GDRG G  DRG GTG       GQG GDRG GTG            DRG GTG  GQG GDRG GTG  GQG+G  GQG GDR</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>8</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>0.00011962</Hsp_evalue>
+      <Hsp_query-from>1406</Hsp_query-from>
+      <Hsp_query-to>1481</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>71</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>DWGQGS--WGQGCGDRGPG--DRGLGTGVLG--TGVWGQGCGDRGVGTGVLGTGVWGQGSEDRGVGTGVWGQGCGDRGVGTG</Hsp_qseq>
+      <Hsp_hseq>DRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTGDRGQGTG------------DRGQGTGDRGQGTGDRGQGTG</Hsp_hseq>
+      <Hsp_midline>D GQG+   GQG GDRG G  DRG GTG  G  TG  GQG GDRG GTG            DRG GTG  GQG GDRG GTG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>ref|XP_008002825.1|</Hit_id>
+  <Hit_def>insulin isoform X2 [Chlorocebus sabaeus]</Hit_def>
+  <Hit_accession>XP_008002825</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>116.701</Hsp_bit-score>
+      <Hsp_score>291</Hsp_score>
+      <Hsp_evalue>3.15705e-25</Hsp_evalue>
+      <Hsp_query-from>1717</Hsp_query-from>
+      <Hsp_query-to>1801</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>94</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>GAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_qseq>
+      <Hsp_hseq>GAQQPSTLRDGCIRRGQQAGHCPSAMALWMRLLPLLALLALWGPDPVPAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_hseq>
+      <Hsp_midline>GA +  T    C+       HCPSAMALWMRLLPLLALLALWGPDP  AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAED</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>ref|XP_035119627.2|</Hit_id>
+  <Hit_def>insulin isoform X1 [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_035119627</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>113.62</Hsp_bit-score>
+      <Hsp_score>283</Hsp_score>
+      <Hsp_evalue>3.71318e-24</Hsp_evalue>
+      <Hsp_query-from>1648</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>54</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>MGSETIKPAGAQQPSALQDRLHQKRPSSRSVPRAFASGGLRIPGWLDPRPQLCSREDVAGLVKHVGVSPGAPRQGTWPSACLSPACLPDHCPSAMALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MGCGPIKPAGTQQPSALRDQLHRRRPAS---------------------------------------SP----------ACL-----PGRCASTMAPWMPLLPLLALLALWGPEPAPAFVNQHLCGPHLVEALYLVCGERGFFYAPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MG   IKPAG QQPSAL+D+LH++RP+S                                       SP          ACL     P  C S MA WM LLPLLALLALWGP+PA AFVNQHLCG HLVEALYLVCGERGFFY PKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>ref|NP_001035835.1|</Hit_id>
+  <Hit_def>insulin, isoform 2 precursor [Homo sapiens] &gt;sp|F8WCM5.1| RecName: Full=Insulin, isoform 2; AltName: Full=INS-IGF2 readthrough transcript protein [Homo sapiens] &gt;gb|AAI48489.1| INS-IGF2 readthrough transcript, partial [synthetic construct] &gt;gb|AAI53084.1| INS-IGF2 readthrough transcript [synthetic construct] &gt;gb|KAI2558104.1| INS-IGF2 readthrough [Homo sapiens] &gt;gb|KAI2558105.1| INS-IGF2 readthrough [Homo sapiens] &gt;gb|KAI4069445.1| INS-IGF2 readthrough [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_001035835</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.1806e-22</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|ABD93452.1|</Hit_id>
+  <Hit_def>INSIGF short transcript variant [Homo sapiens] &gt;gb|ABD93453.1| INSIGF long transcript variant [Homo sapiens]</Hit_def>
+  <Hit_accession>ABD93452</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>111.309</Hsp_bit-score>
+      <Hsp_score>277</Hsp_score>
+      <Hsp_evalue>1.1806e-22</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>ref|XP_024110664.1|</Hit_id>
+  <Hit_def>insulin isoform X1 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_024110664</Hit_accession>
+  <Hit_len>203</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>4.26673e-22</Hsp_evalue>
+      <Hsp_query-from>1742</Hsp_query-from>
+      <Hsp_query-to>1803</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>62</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_qseq>
+      <Hsp_hseq>MALWMRLLPLLALLALWGPDPAQAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_hseq>
+      <Hsp_midline>MALWMRLLPLLALLALWGPDPA AFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>1115259985</Statistics_db-num>
+      <Statistics_db-len>272096647</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
